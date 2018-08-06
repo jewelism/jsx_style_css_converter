@@ -26,7 +26,7 @@ export default {
     }
   },
   methods: {
-    onClickConvert: function(){
+    onClickConvert(){
       try {
         if(this.target){
           // sample
@@ -50,7 +50,7 @@ export default {
         console.log(err)
       }
     },
-    onClickReverseBtn: function(){
+    onClickReverseBtn(){
       this.target = !this.target
     }
   },
